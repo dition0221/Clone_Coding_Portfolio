@@ -1,0 +1,111 @@
+준비물
+- 구글 크롬
+- Visual Studio Code
+- github desktop
+
+* 어떤 종류의 text를 써야하고, text를 어디에 써야하는지 배우는 것
+
+1. HTML
+= 브라우저에게 웹사이트의 콘텐츠가 무엇인지에 대해 알려줌
+2. CSS
+= 브라우저에게 웹사이트가 그 콘텐츠가 어떻게 보여야하는지 대해 알려줌
+3. JavaScript
+
+VS code
+- 폴더와 파일들은 VSC에 연결된 경로가 같아야 함
+- 폴더명, 파일명은 항상 소문자로 해야함
+
+VSCode 확장 프로그램 'prettier' 처음 설치하고 적용 하는 법
+1. ctrl + , 눌러서 설정들어간다.
+2. editor format 이라고 검색한다.
+3.Editor: Default Formatter 항목이 none 이라 되있는데 prettier 로 설정한다
+4.Editor: Format On Save 체크 박스 체크한다.
+
+구글에 HTML, CSS, JS를 검색할 때 'MDN' 키워드와 함께 검색할 것
+
+==========
+
+순서가 있는 목록(ordered list) : <ol>
+순서가 없는 목록(unordered list) : <ul>
+목록 요소(list item) : <li>
+
+<a> 태그
+- href 속성 : 해당 url로 이동
+- target 속성 : 새창에서 열지, 현재창에서 열지 결정
+	- _self : [기본값] 현재창에서 엶
+	- _black : 새 창에서 엶
+
+<meta> 태그
+= 부가적인 정보
+- <head> 내에 위치함
+- self-closing 태그
+- name 속성
+	- name="description"인 경우, 검색엔진이 검색할 때 찾는 태그
+- content 속성 : 내용
+- charset="utf-8" : 글자 인코딩
+- property="og:img" : 카톡에 url 공유 시 나타나는 이미지
+	- og:title
+	- og:url
+	- og:description 등
+	- 페이스북은 fb:~, 트위터는 twitter:~
+
+<html lang="ko"> 태그
+= 검색 엔진에게 해당 웹사이트의 주요 언어를 알려줌
+
+<link> 태그
+= 탭의 아이콘 모양 설정
+ex ) <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="이미지주소">
+- sizes 속성은 사용하지 않아도 됨
+- <head> 부분에서 작성
+
+
+<audio> 태그
+- src 속성
+- controls 속성, autoplay 속성, muted 등 : 속성값 없어도 됨
+	- 속성값으로 'enable'이나 'true'는 같은 값
+
+** 모든 태그들은 외우는 게 아니라, 태그를 어떻게 작성하는지를 기억하면 됨
+- MDN 사이트 참고
+
+
+
+폼 - <form> 태그
+
+<input> 태그
+- type 속성 : { text, password, button, color, submit, reset, url, email 등 }
+- placeholder 속성 : 힌트 내용 입력
+- 속성 값이 true/false 인 경우, 해당 속성명만 넣어도 됨
+	- disabled
+	- required 속성 : 필수 입력 표시
+- minlength 속성 : 해당 글자 수 이상 입력해야지 제대로 동작함
+- type="file"일 경우, 파일 첨부 버튼 생성
+	- 이 때만 사용가능한 'accept' 속성은 업로드 가능한 확장자명을 명시할 수 있음
+	ex ) <input type="file" accept=".doc, .docx, image/*">
+	- 선택한 파일 유형을 검증하지는 않으며, 단순히 유도할 뿐임
+
+<label> 태그
+= form에 question을 추가 가능
+	- <input> 태그와 함께 사용해야 함
+	- <label> 태그의 for 속성의 내용명과 <input> 태그의 id 속성의 내용명이 같아야 함
+- 클릭 시 for과 같은 값을 가진 id를 들고있는 input을 작동시켜 줌
+
+id 속성
+= 고유식별자
+- body 안에 어떤 태그에든 넣을 수 있는 속성
+
+<span>
+= 짧은 문자에 적합함
+
+<div> 태그
+= non-시멘틱태그 / 의미가 없는 태그
+
+시멘틱 태그
+= 문서를 보기만해도 그 의미를 짐작할 수 있는 태그
+1.. <header> 태그
+2.. <main> 태그
+3.. <footer> 태그
+4.. <address> 태그
+5.. <hgroup> 태그
+6.. <nav> 태그
+7.. <section> 태그
+8.. <aside> 태그
