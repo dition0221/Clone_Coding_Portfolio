@@ -6,30 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        :root {
+            --main-color: #489ee3;
+            --default-border: 2px solid var(--main-color);
+        }
         body {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100vh;
+            height: 1000vh;
+            margin: 50px;
         }
-        div {
-            /* display: flex; */
-            justify-content: center;
-            align-items: center;
-            width: 300px;
-            height: 300px;
-            font-size: 70px;
-            color: white;
-            background-color: teal;
+        p {
+            background-color: var(--main-color);
         }
-        #second {
-            background-color: wheat;
+        a {
+            color: var(--main-color);
+            border: var(--default-border);
         }
-    </style>
+    </style>    
 </head>
 <body>
-    <div>1</div>
-    <div id="second">2</div>
-    <div>3</div>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sapiente doloremque, in atque dignissimos labore eos vel consequuntur cum laborum placeat, minus maiores! Vitae totam similique quidem maiores minus dolores.</p>
+   <div>
+       <a href="">website</a>
+   </div>
 </body>
 </html>
