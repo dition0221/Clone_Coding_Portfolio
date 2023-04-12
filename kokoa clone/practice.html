@@ -6,27 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        :root {
-            --main-color: #489ee3;
-            --default-border: 2px solid var(--main-color);
-        }
         body {
-            height: 1000vh;
-            margin: 50px;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
-        p {
-            background-color: var(--main-color);
+        div {
+            background-color: teal;
+            width: 200px;
+            height: 200px;
         }
-        a {
-            color: var(--main-color);
-            border: var(--default-border);
+        @media screen and (min-width: 200px) and (max-width: 1200px) {
+            div {
+                background-color: wheat;
+            }
+        }
+        span {
+            font-size: 36px;
+        }
+        @media screen and (orientation: landscape) {
+            span {
+                display: none;
+            }
+        }
+        @media print {
+            body {
+                background-color: tomato;
+            }
         }
     </style>    
 </head>
 <body>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem sapiente doloremque, in atque dignissimos labore eos vel consequuntur cum laborum placeat, minus maiores! Vitae totam similique quidem maiores minus dolores.</p>
-   <div>
-       <a href="">website</a>
-   </div>
+    <div></div>
+    <span>plz flip ur phone :(</span>
 </body>
 </html>
