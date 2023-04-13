@@ -1,0 +1,51 @@
+.welcome-header {
+    margin: 100px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.7;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+#login-form input {
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+#login-form input[placeholder] { /* 또는 #login-form input:not([type="submit"]) */
+    background-color: var(--mokoko-color);
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2.5px solid rgba(0, 0, 0, 0.2);
+}
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.45);
+}
+#login-form input:focus {
+    border-color: var(--mokoko-font-color);
+}
+#login-form input[type="submit"] {
+    background-color: var(--mokoko-leaf-color);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}

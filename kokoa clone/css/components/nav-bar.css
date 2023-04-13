@@ -1,0 +1,18 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--mokoko-leaf-color);
+    /* padding: 20px 60px; */
+    padding: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid var(--mokoko-font-color-opa5);
+}
+.nav__list {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.nav__link {
+    color: var(--mokoko-icon-color);
+}
