@@ -1,0 +1,36 @@
+.user-component,
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+    padding-left: var();
+}
+.user-component__avatar {
+    /* 사진 크기 [(--xl)80x80 / 70x70 / (--sm)60x60] */
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    margin-right: 20px;
+    object-fit: cover; /* 가로x세로 비율을 맞추어줌 */
+}
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+}
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+.user-component__title {
+    font-weight: 800;
+    font-size: 25px;
+}
+.user-component__subtitle {
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}

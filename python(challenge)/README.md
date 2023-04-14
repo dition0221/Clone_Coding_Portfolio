@@ -10,6 +10,8 @@
 - **23-04-10** : #1.1 ~ #2.4 / 코딩 준비, Variable and Functions (+ Quiz)
 - **23-04-11** : #2.4 ~ #2.8 / Functions (+ Quiz)
 - **23-04-12** : #2.9 ~ #3.2 / Functions and If statement (+ Code Challenge)
-    - [Function, return문, f-string, if 조건문]
+    - Function, return문, f-string, if 조건문
 - **23-04-13** : #3.3 ~ #3.7 / And & Or, Standard Library, While statement (+ Code Challenge)
-    - [input(), 조건식, Standard Library, While 반복문]
+    - input(), 조건식, Standard Library, While 반복문
+- **23-04-14** : #4.0 ~ #4.4 / Data Structure(1) (+ Quiz)
+    - Method, Data Structure, List, Tuple, Dictionary

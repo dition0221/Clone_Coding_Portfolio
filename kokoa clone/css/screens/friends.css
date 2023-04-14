@@ -1,0 +1,12 @@
+#friends-display-link {
+    display: block;
+    text-align: center;
+    background-color: var(--mokoko-background-color);
+    padding: 15px 0px;
+    color: var(--mokoko-icon-color);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#friends-display-link i {
+    color: var(--mokoko-font-color-opa5);
+}
