@@ -1,0 +1,14 @@
+.badge {
+    /* 모양 설정 */
+    background-color: tomato;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    /* 위치 설정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

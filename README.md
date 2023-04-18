@@ -5,6 +5,7 @@
 
 ---
 
+### 시간순으로 정렬.  
 - **kokoa clone** : [HTML5, CSS3]
     - HTML과 CSS를 중점적으로 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
 - **python(challenge)** : [Python]

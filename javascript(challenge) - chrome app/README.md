@@ -7,4 +7,7 @@
 
 ---
 
-- **23-04-17** : #1.4 ~ #2.0 / Introduction (+ Quiz)
+- **23-04-17** : #1.4 ~ #2.0 / 코딩 준비, Introduction (+ Quiz)
+    - HTML 파일에 JS 파일을 연결하는 법
+- **23-04-18** : #2.1 ~ #2.6 / Variable (+ Quiz)
+    - data type, variable, array, object

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - LoaTalk Clone</title>
+    <title>Chats - LoaTalk Clone</title>
 </head>
 
 <body>
@@ -24,46 +24,26 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__title">Mokokos</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-xl"></i></span>
             <span><i class="fa-solid fa-music fa-xl"></i></span>
             <span><i class="fa-solid fa-gear fa-xl"></i></span>
         </div>
     </header>
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i> Mokoko's Names Display
-        <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a> 
-    <main class="friends-screen">
+    <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img src="img/myMokoko.jpg" class="user-component__avatar user-component__avatar--xl"/>
+                <img src="img/myMokoko.jpg" class="user-component__avatar"/>
                 <div class="user-component__text">
                     <h4 class="user-component__title">Mokoko</h4>
-                    <!-- <h6 class="user-component__subtitle">TEST test TEST test</h6> -->
-                </div>
-            </div>
-            <div class="user-component__column"></div>
-        </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up fa-xs"></i>
-            </div>
-        </div>
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="img/myMokoko.jpg" class="user-component__avatar user-component__avatar--sm"/>
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                    <h6 class="user-component__subtitle">너 왜 냉장고에 있는 내 모코코주스 마심?</h6>
                 </div>
             </div>
             <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fa-solid fa-chevron-right fa-xs"></i>
-                </div>
+                <span class="user-component__time">12:34</span>
+                <div class="badge">1</div>
             </div>
         </div>
     </main>
@@ -71,13 +51,13 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i>
+                    <i class="fa-regular fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>
-                    <i class="fa-regular fa-comment fa-2x"></i>
+                    <i class="fa-solid fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">

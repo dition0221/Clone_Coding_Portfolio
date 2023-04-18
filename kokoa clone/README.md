@@ -19,3 +19,5 @@
 	- index.html, form tag's action and method, font, icon, reset.css, flexbox, cursor property, @import, nav-bar, position fixed
 - **23-04-14** : #6.13 ~ #6.17 / Cloning time(2)
 	- position property, object-fit property, using multiple calss, put icon on other icon
+- **23-04-18** : #6.18 ~ #6.20 / Cloning time(3)
+	- 3번째 html 파일('Chats' 화면) 생성

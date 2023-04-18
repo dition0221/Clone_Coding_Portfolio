@@ -5,7 +5,7 @@
 노마드 코더 정책 상 강의요약은 괜찮으나, 코드와 필기는 공개적인 곳에 올리면 안 됨.  
 필기 요약지는 암호화된 .zip 파일로 저장함.
 
-- **job scrapper.py** : 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적으로 동작하지 않습니다.)  
+- **job scrapper.py** : 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
 - **practice 폴더** : python을 이용한 개인 연습 공간.
 
 ---
@@ -22,3 +22,6 @@
     - for 반복문, not 예약어, Package 등록법, requests 패키지, response_status_code
 - **23-04-17** : #5.1 ~ #5.6 / Job Scrapper(1) (+ Code Challenge(2 days))
     - requests 패키지, BeautifulSoup 패키지, Scrapping, HTML 분석, HTML 태그 추출, len() 함수
+- **23-04-18** : #5.7 ~ #5.9 / Job Scrapper(1) (+ Code Challenge(2 days))
+    - [과제] 다른 사이트를 스크래핑하는 Python 코드를 코딩
+    - dictionary 형식으로 저장, list.append(), BeautifulSoup.string, str.replace(), str.split, str.strip()
