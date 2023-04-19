@@ -11,3 +11,5 @@
     - HTML 파일에 JS 파일을 연결하는 법
 - **23-04-18** : #2.1 ~ #2.6 / Variable (+ Quiz)
     - data type, variable, array, object
+- **23-04-19** : #2.7 ~ #2.16 / Function and Conditionals (+ Quiz)
+    - function, return, prompt(), data type을 바꾸는 방법, if 조건문

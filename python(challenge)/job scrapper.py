@@ -1,3 +1,5 @@
+# https://replit.com/@dition0221/webscrapper#main.py 에서 사용 바람.
+
 from requests import get
 from bs4 import BeautifulSoup
 

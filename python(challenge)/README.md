@@ -20,8 +20,10 @@
     - Method, Data Structure, List, Tuple, Dictionary
 - **23-04-15** : #4.5 ~ #4.9 / Data Structure(2) (+ Code Challenge)
     - for 반복문, not 예약어, Package 등록법, requests 패키지, response_status_code
-- **23-04-17** : #5.1 ~ #5.6 / Job Scrapper(1) (+ Code Challenge(2 days))
-    - requests 패키지, BeautifulSoup 패키지, Scrapping, HTML 분석, HTML 태그 추출, len() 함수
-- **23-04-18** : #5.7 ~ #5.9 / Job Scrapper(1) (+ Code Challenge(2 days))
+- **23-04-17** : #5.1 ~ #5.6 / Job Scrapper(1) (+ Code Challenge(2 days)[1st day])
+    - requests 패키지, BeautifulSoup 패키지, Scrapping, BeautifulSoup.find(), HTML 분석, HTML 태그 추출, len() 함수
+- **23-04-18** : #5.7 ~ #5.9 / Job Scrapper(1) (+ Code Challenge(2 days)[2nd day])
     - [과제] 다른 사이트를 스크래핑하는 Python 코드를 코딩
     - dictionary 형식으로 저장, list.append(), BeautifulSoup.string, str.replace(), str.split, str.strip()
+- **23-04-19** : #5.10 ~ #5.14 / Job Scrapper(2) (+ Final Code Challenge(5 days)[1st day])
+    - refactoring, Selenium 사용, None 데이터 타입, BeautifulSoup.select()
