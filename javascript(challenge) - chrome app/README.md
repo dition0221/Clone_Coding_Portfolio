@@ -13,3 +13,5 @@
     - data type, variable, array, object
 - **23-04-19** : #2.7 ~ #2.16 / Function and Conditionals (+ Quiz)
     - function, return, prompt(), data type을 바꾸는 방법, if 조건문
+- **23-04-20** : #3.0 ~ #3.5 / Objects, Arrays and Events (+ Code Challenge)
+    - document, window, console.dir(), element를 가져오기, .getElementById(), .querySelector(), Event, .addEventListener()
