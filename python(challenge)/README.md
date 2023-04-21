@@ -4,13 +4,13 @@
 
 ---
   
-### **https://webscrapper.dition0221.repl.co**에서 동작을 확인할 수 있습니다.  
+### https://webscrapper.dition0221.repl.co 에서 동작을 확인할 수 있습니다.  
 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
 - main.py
     - file.py : .csv파일을 생성
     - extractors/indeed.py : indeed.com에서 스크래핑
     - extractors/wwr.py : weworkremotely.com에서 스크래핑
-    - templates/ : html 문서
+    - templates/ : html 문서  
   
 - **practice 폴더** : python을 이용한 개인 연습 공간.  
 
