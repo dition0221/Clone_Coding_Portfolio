@@ -1,4 +1,4 @@
-from requests import get
+# from requests import get
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -9,6 +9,7 @@ options.add_argument('--no-sandbox')
 options.add_argument('--disable-dev-shm-usage')
 # options.add_argument("lang=ko_KR")
 browser = webdriver.Chrome(options=options)
+
 
 # 탐색할 페이지 갯수를 반환
 def get_page_count(keyword):
@@ -24,6 +25,7 @@ def get_page_count(keyword):
   else:
     return count - 1
 
+
 # indeed.com에서 스크롤하는 함수
 def extract_indeed_jobs(keyword):
   results = []
@@ -35,7 +37,7 @@ def extract_indeed_jobs(keyword):
     browser.get(final_url)
     # print(browser.page_source)  # 웹 페이지의 HTML 코드
     print("Requesting", final_url)
-  
+
     # 해당 사이트가 봇으로 인식해서 막고있으므로, requests로 상태코드 확인 불가
     soup = BeautifulSoup(browser.page_source, "html.parser")
     job_list = soup.find("ul", class_="jobsearch-ResultsList")
@@ -55,9 +57,12 @@ def extract_indeed_jobs(keyword):
         location = job.find("div", class_="companyLocation")
         job_data = {
           "link": f"https://kr.indeed.com{link}",
-          "company": company.string.replace(",", " "),
-          "location": location.string.replace(",", " "),
-          "position": title.replace(",", " ")
+          "company": company.string,
+          "location": location.string,
+          "position": title
         }
+        for data in job_data:
+          if data != None:
+            data = data.replace(",", " ")
         results.append(job_data)
   return results

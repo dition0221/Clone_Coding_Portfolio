@@ -1,14 +1,21 @@
 # python(challenge)
 ### python으로 웹 스크래퍼를 만듭니다.  
 #### [23-04-10 ~ 23-04-24(2주)] 챌린지 교육 과정.  
+
+---
   
+### **https://webscrapper.dition0221.repl.co**에서 동작을 확인할 수 있습니다.  
+해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
+- main.py
+    - file.py : .csv파일을 생성
+    - extractors/indeed.py : indeed.com에서 스크래핑
+    - extractors/wwr.py : weworkremotely.com에서 스크래핑
+    - templates/ : html 문서
+  
+- **practice 폴더** : python을 이용한 개인 연습 공간.  
+
 노마드 코더 정책 상 강의요약은 괜찮으나, 코드와 필기는 공개적인 곳에 올리면 안 됨.  
 필기 요약지는 암호화된 .zip 파일로 저장함.
-
-- **job-scrapper.py** : 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
-    - wwr-job-scrapper.py
-    - indeed-job-scrapper.py
-- **practice 폴더** : python을 이용한 개인 연습 공간.
 
 ---
 
@@ -31,3 +38,5 @@
     - refactoring, Selenium 사용, None 데이터 타입, BeautifulSoup.select()
 - **23-04-20** : #5.15 ~ #5.21 / Job Scrapper(3) (+ Final Code Challenge(5 days)[2nd day])
     - pagination의 여러 page들을 추출하는 방법, range(), list 합치기, open() and .write(), .csv File, replace()
+- **23-04-21** : #6.0 ~ #6.10 / Build a Website with Flask (+ Final Code Challenge(5 days)[3rd day])
+    - How to use Flask, rendering, request, write Python code in HTML with Flask, picocss.com, fake DB(Cache), exception, to download made .csv file

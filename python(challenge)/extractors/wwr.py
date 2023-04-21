@@ -1,6 +1,7 @@
 from requests import get
 from bs4 import BeautifulSoup
 
+
 # weworkremotely.com
 def extract_wwr_jobs(keyword):
   base_url = "https://weworkremotely.com/remote-jobs/search?term="  # 검색 사이트
@@ -25,12 +26,12 @@ def extract_wwr_jobs(keyword):
         title = anchor.find("span", class_="title")
         job_data = {
           "link": f"https://weworkremotely.com/{link}",
-          "company": company.string.replace(",", " "),
-          "location": region.string.replace(",", " "),
-          "position": title.string.replace(",", " ")
+          "company": company.string,
+          "location": region.string,
+          "position": title.string
         }
+        for data in job_data:
+          if data != None:
+            data = data.replace(",", " ")
         results.append(job_data)
     return results
-    # for result in results:
-    #   print(result)
-    #   print("\n//////\n")  # 구분자
