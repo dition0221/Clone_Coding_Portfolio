@@ -4,7 +4,7 @@
 
 ---
   
-### https://webscrapper.dition0221.repl.co 에서 동작을 확인할 수 있습니다.  
+### https://pythonlastjobscrapper.dition0221.repl.co/ 에서 동작을 확인할 수 있습니다.  
 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
 - main.py
     - file.py : .csv파일을 생성
@@ -40,3 +40,6 @@
     - pagination의 여러 page들을 추출하는 방법, range(), list 합치기, open() and .write(), .csv File, replace()
 - **23-04-21** : #6.0 ~ #6.10 / Build a Website with Flask (+ Final Code Challenge(5 days)[3rd day])
     - How to use Flask, rendering, request, write Python code in HTML with Flask, picocss.com, fake DB(Cache), exception, to download made .csv file
+- **23-04-22** : (+ Final Code Challenge(5 days)[4th day])
+    - Update : 결과물에 회사 logo 추가, logo가 없을 시 대체 이미지 추가
+    - Fix : .csv 파일 작성 시 내용물에 쉼표(,) 제거, indeed.com 대신 remoteok.com으로 대체

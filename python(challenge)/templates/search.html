@@ -11,12 +11,13 @@
   <main class="container">
     <hgroup>
       <h1>Search Results for "{{keyword}}" :</h1>
-      <a href="/export?keyword={{keyword}}" target="_blank">Exprot to file</a>
+      <a href="/export?keyword={{keyword}}" target="_blank">&rarr; Download Excel File &larr;</a>
     </hgroup>
     <figure>
       <table role="grid">
         <thead>
           <tr>
+            <th>Logo</th>
             <th>Position</th>
             <th>Company</th>
             <th>Location</th>
@@ -26,6 +27,7 @@
         <tbody>
           {% for job in jobs %}
             <tr>
+              <td><img src="{{job.logo}}" alt="job_logo"></td>
               <td>{{job.position}}</td>
               <td>{{job.company}}</td>
               <td>{{job.location}}</td>
