@@ -24,6 +24,7 @@ def search():
     # DB에 있다면 바로 보여줌
     if keyword in db:
         jobs = db[keyword]
+        len_jobs = len(jobs)  # 결과의 갯수
     # 처음 검색 시
     else:
         remoteok = extract_remoteok_jobs(keyword)
@@ -31,7 +32,8 @@ def search():
         # 결과 list
         jobs = remoteok + wwr
         db[keyword] = jobs  # DB에 저장 후 결과창
-    return render_template("search.html", keyword=keyword, jobs=jobs)
+        len_jobs = len(jobs)  # 결과의 갯수
+    return render_template("search.html", keyword=keyword, jobs=jobs, len_jobs=len_jobs)
 
 
 @app.route("/export")

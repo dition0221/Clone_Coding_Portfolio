@@ -4,13 +4,15 @@
 
 ---
   
-### https://pythonlastjobscrapper.dition0221.repl.co/ 에서 동작을 확인할 수 있습니다.  
+### https://pythonlastjobscrapper.dition0221.repl.co/  에서 동작을 확인할 수 있습니다.  
 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
 - main.py
     - file.py : .csv파일을 생성
-    - extractors/indeed.py : indeed.com에서 스크래핑
+    - extractors/indeed.py : [사용하지않음] indeed.com에서 스크래핑 (+Selenium)
+    - extractors/remoteok.py : remoteok.com에서 스크래핑
     - extractors/wwr.py : weworkremotely.com에서 스크래핑
     - templates/ : html 문서  
+    - static/img/ : image 파일
   
 - **practice 폴더** : python을 이용한 개인 연습 공간.  
 
@@ -43,3 +45,6 @@
 - **23-04-22** : (+ Final Code Challenge(5 days)[4th day])
     - Update : 결과물에 회사 logo 추가, logo가 없을 시 대체 이미지 추가
     - Fix : .csv 파일 작성 시 내용물에 쉼표(,) 제거, indeed.com 대신 remoteok.com으로 대체
+- **23-04-23** : (+ Final Code Challenge(5 days)[5th day])
+    - Update : search.html에서 home.html로 가는 button 추가, CSS style 추가, 결과물의 갯수 표시 추가
+    - Fix : .csv 파일 작성 시 내용물에 쉼표(,) 제거하는 코드 간소화

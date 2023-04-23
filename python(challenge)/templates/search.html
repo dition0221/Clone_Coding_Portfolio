@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Job Scrapper</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    html {
+      background-color: #f5f5dc;
+    }
+    hgroup > h1 {
+      margin-bottom: 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header__excel {
+      display: flex;
+      padding: 10px 12px 12px;
+      border: 2px solid rgb(31, 114, 68);
+    }
+    .header__excel img {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+    }
+    .header__button {
+      width: 160px;
+      margin: 0px;
+    }
+    .my-introduce {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .my-introduce img {
+      width: 32px;
+      height: 32px;
+      opacity: 0.5;
+    }
+    .my-introduce span {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    table {
+      border: 3px solid #000;
+    }
+  </style>
 </head>
 <body>
   <main class="container">
     <hgroup>
-      <h1>Search Results for "{{keyword}}" :</h1>
-      <a href="/export?keyword={{keyword}}" target="_blank">&rarr; Download Excel File &larr;</a>
+      <h1>Search Results for "{{keyword}}" : {{len_jobs}} Results</h1>
+      <div class="header">
+        <div class="header__excel">
+          <img src="../static/img/excel_logo.png" alt="">
+          <a href="/export?keyword={{keyword}}" target="_blank">Download Excel File</a>
+        </div>
+        <div>
+          <button class="header__button" onclick="window.location.href='/'">
+            <span>Go to Home</span>
+          </button>            
+        </div>
+      </div>
     </hgroup>
     <figure>
       <table role="grid">
@@ -36,6 +90,10 @@
           {% endfor %}
         </tbody>
       </table>
+      <div class="my-introduce">
+        <img src="../static/img/github_logo.png" alt="">
+        <span>@dition0221</span>
+      </div>
     </figure>
   </main>
 </body>
