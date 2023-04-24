@@ -12,3 +12,18 @@
 .screen-header__icons span {
     margin-left: 30px;
 }
+.screen-header__point {
+    /* 모양 설정 */
+    background-color: tomato;
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    /* 위치 설정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 18px;
+    top: 63px;
+}

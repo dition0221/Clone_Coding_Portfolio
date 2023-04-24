@@ -10,14 +10,17 @@
 
 - **23-04-08** : #1.1 ~ #2.11 / 코딩 준비 및 HTML
 - **23-04-10** : #3.0 ~ #3.11 / CSS(1)
-	- block, inline, margin, padding, border, class, inline-block, flexbox
+	- block, inline, margin, padding, border, class, inline-block, flex box
 - **23-04-11** : #3.12 ~ #3.19 / CSS(2)
 	- position, 연결 선택자(pseudo selector), 속성 선택자(attribute selector), 선택자 상태(selector state), 색상 코드 지정 방법, custom property
 - **23-04-12** : #4.0 ~ #5.3 / advanced CSS, Git and Github
 	- Transition, Transformation, Animation, Media query, Git, Github
 - **23-04-13** : #6.0 ~ #6.12 / Cloning time(1)
-	- index.html, form tag's action and method, font, icon, reset.css, flexbox, cursor property, @import, nav-bar, position fixed
+	- index.html, form tag's action and method, font, icon, reset.css, flex box, cursor property, @import, nav-bar, position fixed
 - **23-04-14** : #6.13 ~ #6.17 / Cloning time(2)
-	- position property, object-fit property, using multiple calss, put icon on other icon
+	- position property, object-fit property, using multiple class, put icon on other icon
 - **23-04-18** : #6.18 ~ #6.20 / Cloning time(3)
-	- 3번째 html 파일('Chats' 화면) 생성
+	- 3번째 html 파일('Chats' 화면) 생성(chats.html)
+- **23-04-24** : #6.21 ~ #6. / Cloning time(4)
+	- 4번째 html 파일('Find' 화면) 생성(find.html), screens/find.css, components/open-post.css
+	- Fix : 본문과 하단 nav가 겹치는 문제 해결(본문<main>에서 nav의 height만큼 padding-bottom 추가)

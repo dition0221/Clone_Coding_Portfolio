@@ -5,5 +5,8 @@
     --mokoko-font-color: #3c7f6d;
     --mokoko-font-color-opa5: rgba(60, 127, 109, 0.5);
     --mokoko-icon-color: #1f4138;
+    --gray-color: rgba(0, 0, 0, 0.5);
+    
     --horizontal-space: 25px;
+    --main-border: 1px solid var(--mokoko-font-color-opa5);
 }

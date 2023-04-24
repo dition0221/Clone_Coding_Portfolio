@@ -15,3 +15,6 @@
         - 'python' 같은 키워드를 입력해야 함
 - **javascript(challenge) - chrome app** : [JavaScript]
     - [23-04-17 ~ 23-05-01(2주)] JavaScript로 크롬 모멘텀 앱을 만듭니다.
+- **htmlcss(challenge)** : [HTML5, CSS3]
+    - [23-04-24 ~ 23-05-08(2주)] HTML과 CSS를 중점적으로 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
+    - 'kokoa clone/'과 같은 내용입니다.

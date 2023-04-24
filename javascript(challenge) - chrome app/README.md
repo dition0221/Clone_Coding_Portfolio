@@ -16,4 +16,7 @@
 - **23-04-20** : #3.0 ~ #3.5 / Objects, Arrays and Events (+ Code Challenge)
     - document, window, console.dir(), element를 가져오기, .getElementById(), .querySelector(), Event, .addEventListener()
 - **23-04-21** : #3.6 ~ #3.8 / CSS in Javascript (+ Code Challenge)
-    - .className 프로퍼티, .classList { .contains, .remove, .add, .toggle }
+    - .className 프로퍼티, .classList { .contains(), .remove(), .add(), .toggle() }
+- **23-04-22** : Recap (+ Quiz)
+- **23-04-24** : #4.0 ~ #4.7 / Login (+ Code Challenge(2 days)[1st day])
+    - <form>tag submit, event argument, event.preventDefault(), template literals, local storage API { .setItem(), getItem(), removeItem() }

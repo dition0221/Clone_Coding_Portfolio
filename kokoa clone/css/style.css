@@ -9,15 +9,17 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/open-post.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
     background-color: var(--mokoko-color);
     font-family: 'Open Sans', sans-serif;
 }
 .main-screen {
-    padding: 0px var(--horizontal-space);
+    padding: 0px var(--horizontal-space) 72px;
 }

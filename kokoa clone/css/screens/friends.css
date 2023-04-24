@@ -11,12 +11,9 @@
 #friends-display-link i {
     color: var(--mokoko-font-color-opa5);
 }
-.friends-screen {
-    padding: 0px var(--horizontal-space);
-}
 .friends-screen__channel {
     margin-top: 25px;
-    border-top: 1px solid var(--mokoko-font-color-opa5);
+    border-top: var(--main-border);
     padding-top: 15px;
 }
 .friends-screen__channel-header {
