@@ -20,3 +20,6 @@
 - **23-04-22** : Recap (+ Quiz)
 - **23-04-24** : #4.0 ~ #4.7 / Login (+ Code Challenge(2 days)[1st day])
     - <form>tag submit, event argument, event.preventDefault(), template literals, local storage API { .setItem(), getItem(), removeItem() }
+- **23-04-25** : (+ Code Challenge(2 days)[2nd day])
+    - [과제] 랜덤 숫자 맞추기
+    - Math.random()

@@ -21,6 +21,8 @@
 	- position property, object-fit property, using multiple class, put icon on other icon
 - **23-04-18** : #6.18 ~ #6.20 / Cloning time(3)
 	- 3번째 html 파일('Chats' 화면) 생성(chats.html)
-- **23-04-24** : #6.21 ~ #6. / Cloning time(4)
+- **23-04-24** : #6.21 ~ #6.24 / Cloning time(4)
 	- 4번째 html 파일('Find' 화면) 생성(find.html), screens/find.css, components/open-post.css
 	- Fix : 본문과 하단 nav가 겹치는 문제 해결(본문<main>에서 nav의 height만큼 padding-bottom 추가)
+- **23-04-25** : #6.25 ~ #6.26 / Cloning time(5)
+	- 5번째 html 파일('More' 화면) 생성(more.html), screens/more.css, components/icon-raw.css

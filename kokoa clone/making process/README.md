@@ -8,3 +8,7 @@
 - **Day-07** : 23-04-18
     - friends.html
     - chats.html
+- **Day-08** : 23-04-24
+    - find.html
+- **Day-09** : 23-04-25
+    - more.html

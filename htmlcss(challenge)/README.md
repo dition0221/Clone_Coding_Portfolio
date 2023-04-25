@@ -9,3 +9,5 @@
 
 - **23-04-24** : #1.5 ~ #1.9 / 코딩 준비, Introduction (+ Quiz)
     - HTML & CSS & JS에 대해 알아보기
+- **23-04-25** : #2.0 ~ #2.4 / HTML(1) (+ Quiz)
+    - HTML, list { ol, ul, li }, anchor, attribute, prettier 확장프로그램

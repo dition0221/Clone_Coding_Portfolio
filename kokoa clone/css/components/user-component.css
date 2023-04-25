@@ -38,14 +38,25 @@
     color: var(--gray-color);
     font-size: 15px;
 }
+.user-component__subtitle i {
+    color: tomato;
+}
 .user-component__column:last-child {
     color: var(--mokoko-font-color);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
+.user-component__column:last-child i {
+    color: black;
+}
 .user-component__time {
     margin-bottom: 10px;
     display: block;
     color: var(--gray-color);
 }
+/* .user-component__tel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+} */
