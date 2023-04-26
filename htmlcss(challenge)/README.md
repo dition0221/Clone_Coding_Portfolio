@@ -11,3 +11,5 @@
     - HTML & CSS & JS에 대해 알아보기
 - **23-04-25** : #2.0 ~ #2.4 / HTML(1) (+ Quiz)
     - HTML, list { ol, ul, li }, anchor, attribute, prettier 확장프로그램
+- **23-04-26** : #2.5 ~ #2.11 / HTML(2) (+ Quiz)
+    - <meta>, 파비콘 설정, <form>, <label>, id 속성, 시멘틱 태그

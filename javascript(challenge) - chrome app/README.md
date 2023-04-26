@@ -23,3 +23,6 @@
 - **23-04-25** : (+ Code Challenge(2 days)[2nd day])
     - [과제] 랜덤 숫자 맞추기
     - Math.random()
+- **23-04-26** : #5.0 ~ #5.3 / Clock (+ Code Challenge)
+    - 무조건 2자리 수를 가지는 시계 만들기 (ex. 01, 02, ...)
+    - setInterval(), setTimeout(), Date 객체, .padStart(), .padEnd()
