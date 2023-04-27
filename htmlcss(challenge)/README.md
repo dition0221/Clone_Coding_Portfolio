@@ -12,4 +12,6 @@
 - **23-04-25** : #2.0 ~ #2.4 / HTML(1) (+ Quiz)
     - HTML, list { ol, ul, li }, anchor, attribute, prettier 확장프로그램
 - **23-04-26** : #2.5 ~ #2.11 / HTML(2) (+ Quiz)
-    - <meta>, 파비콘 설정, <form>, <label>, id 속성, 시멘틱 태그
+    - meta, 파비콘 설정, form, label, id 속성, 시멘틱 태그
+- **23-04-27** : HTML(3) (+ Code Challenge)
+    - [과제] label과 input을 이용한 form 생성하기

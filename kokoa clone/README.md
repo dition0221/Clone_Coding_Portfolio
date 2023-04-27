@@ -26,3 +26,10 @@
 	- Fix : 본문과 하단 nav가 겹치는 문제 해결(본문<main>에서 nav의 height만큼 padding-bottom 추가)
 - **23-04-25** : #6.25 ~ #6.26 / Cloning time(5)
 	- 5번째 html 파일('More' 화면) 생성(more.html), screens/more.css, components/icon-raw.css
+- **23-04-27** : #6.27 ~ #6.30 / Cloning time(6)
+	- 6번째 html 파일('Setting' 화면) 생성(settings.html)
+	- 7번째 html 파일('chat' 화면) 생성(chat.html)
+	- components/ alt-screen-header.css, alt-screen-header.css
+	- screens/ settings.css, chat.css
+	- Update : 모든 페이지에서 설정 버튼에 anchor(settings.html) 추가
+	- Fix : 상단의 status-bar와 alt-screen-header 재정렬 및 본문이 겹치는 문제 해결

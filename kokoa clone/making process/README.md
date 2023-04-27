@@ -12,3 +12,6 @@
     - find.html
 - **Day-09** : 23-04-25
     - more.html
+- **Day-10** : 23-04-27
+    - settings.html
+    - chat.html

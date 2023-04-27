@@ -1,0 +1,16 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(60, 127, 109, 0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings__setting-column i {
+    margin-right: 20px;
+    font-size: 22px;
+    color: var(--mokoko-icon-color);
+}
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}

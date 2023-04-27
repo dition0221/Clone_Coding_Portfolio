@@ -26,3 +26,6 @@
 - **23-04-26** : #5.0 ~ #5.3 / Clock (+ Code Challenge)
     - 무조건 2자리 수를 가지는 시계 만들기 (ex. 01, 02, ...)
     - setInterval(), setTimeout(), Date 객체, .padStart(), .padEnd()
+- **23-04-27** : #6.0 ~ #6.2 / Quotes, Background with Math.random() (+ Code Challenge)
+    - Math 객체, Math.random(), { Math.round(), Math.ceil(), Math.floor() }
+    - JS에서 HTML문서에 element 생성하기 - { .createElement(), .appendChild(), .prepend(), .before(), .after() }

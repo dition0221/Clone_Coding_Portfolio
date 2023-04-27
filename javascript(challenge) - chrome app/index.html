@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentum</title>
+    <style>
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
     <form id="login-form" class="hidden">
@@ -14,7 +28,13 @@
     </form>
     <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
 </body>
 </html>
