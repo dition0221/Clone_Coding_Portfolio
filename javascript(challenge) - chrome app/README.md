@@ -29,3 +29,6 @@
 - **23-04-27** : #6.0 ~ #6.2 / Quotes, Background with Math.random() (+ Code Challenge)
     - Math 객체, Math.random(), { Math.round(), Math.ceil(), Math.floor() }
     - JS에서 HTML문서에 element 생성하기 - { .createElement(), .appendChild(), .prepend(), .before(), .after() }
+- **23-04-28** : #7.0 ~ #7.8 / To Do List (+ Final Code Challenge(3 days)[1st day])
+    - To-Do list 만들기 및 저장하기, list 삭제 버튼, JSON.stringify()로 localStorage에 배열로 저장
+    - event.target.parentElement, event.composedPath(), JSON.stringify(), JSON.parse(), array.forEach(), Date.now(), array.filter()
