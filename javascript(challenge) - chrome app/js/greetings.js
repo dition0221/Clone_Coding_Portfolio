@@ -6,7 +6,7 @@ const USERNAME_KEY = "username";
 
 const paintGreetings = (username) => {
     const greeting = document.querySelector("#greeting");
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `Hello, ${username}.`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 };
 

@@ -17,3 +17,5 @@
     - [과제] label과 input을 이용한 form 생성하기
 - **23-04-28** : #3.0 ~ #3.5 / CSS(1) (+ Quiz)
     - CSS, block, inline, display속성을 이용해 block요소와 inline요소의 속성을 바꾸는 방법, margin, 마진 중첩 현상
+- **23-04-29** : #3.6 ~ #3.11 / CSS(2) (+ Code Challenge)
+    - padding, border, inline, class, display 속성, flex-box {flex-direction, justify-content, align-items, flex-wrap 등}
