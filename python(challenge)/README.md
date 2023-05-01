@@ -4,7 +4,18 @@
 
 ---
   
+
 ### https://pythonlastjobscrapper.dition0221.repl.co/  에서 동작을 확인할 수 있습니다.  
+![image](https://i.imgur.com/lnsOkQx.jpg)  
+![image](https://i.imgur.com/SfnoyZ0.png)  
+> [Job Scrapper] 직업 정보를 스크래핑 합니다.  
+    - 외국 코딩계 취업 사이트('remoteok.com'과 'weworkremotely.com')에 연결되어 있습니다.  
+    - 'python' 같은 키워드를 입력해야 합니다.  
+
+---
+
+🎉노마드코더 **파이썬 챌린지 33기 우수 졸업생**으로 선정되었습니다.🎉  
+(https://nomadcoders.co/community/thread/7849)  
 해당 스크래퍼는 교육 목적으로 동작합니다. (상업적 목적이 아닙니다.)  
 - main.py
     - file.py : .csv파일을 생성

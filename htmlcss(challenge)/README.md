@@ -19,3 +19,5 @@
     - CSS, block, inline, display속성을 이용해 block요소와 inline요소의 속성을 바꾸는 방법, margin, 마진 중첩 현상
 - **23-04-29** : #3.6 ~ #3.11 / CSS(2) (+ Code Challenge)
     - padding, border, inline, class, display 속성, flex-box {flex-direction, justify-content, align-items, flex-wrap 등}
+- **23-05-01** : #3.12 ~ #3.16 / CSS(3) (+ Code Challenge)
+    - position 속성, 의사 선택자(pseudo selector), 선택자 결합(combinators), 속성 선택자(attribute selector)
