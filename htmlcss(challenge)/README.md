@@ -21,3 +21,6 @@
     - padding, border, inline, class, display 속성, flex-box {flex-direction, justify-content, align-items, flex-wrap 등}
 - **23-05-01** : #3.12 ~ #3.16 / CSS(3) (+ Code Challenge)
     - position 속성, 의사 선택자(pseudo selector), 선택자 결합(combinators), 속성 선택자(attribute selector)
+- **23-05-02** : #3.17 ~ #4.6 / Advanced CSS (+ Code Challenge)
+    - state에 따른 CSS, pseudo element, 색깔을 지정하는 방법, :root
+    - transition, transformation, animation, Media Query

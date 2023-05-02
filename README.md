@@ -19,11 +19,14 @@
 - **javascript(challenge) - chrome app** : [JavaScript]
     - [23-04-17 ~ 23-05-01(2주)] JavaScript로 크롬 모멘텀 앱을 만듭니다.
     - **https://dition0221.github.io/** : 최종 결과물
-        > [크롬 모멘텀 앱]
-            - 현재 시간과 해당 지역의 실시간 날씨(openAPI)를 알려줍니다. (지역 권한 필요.)  
-            - 새로고침 시 랜덤한 배경화면과 명언을 표시합니다.  
-            - to-do List에 할 일을 생성 및 삭제합니다.  
-            - 웹 사이트가 이름과 to-do List를 기억합니다.
+    > [크롬 모멘텀 앱]
+        - 현재 시간과 해당 지역의 실시간 날씨(openAPI)를 알려줍니다. (지역 권한 필요.)  
+        - 새로고침 시 랜덤한 배경화면과 명언을 표시합니다.  
+        - to-do List에 할 일을 생성 및 삭제합니다.  
+        - 웹 사이트가 이름과 to-do List를 기억합니다.
 - **htmlcss(challenge)** : [HTML5, CSS3]
     - [23-04-24 ~ 23-05-08(2주)] HTML과 CSS를 중점적으로 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
     - 'kokoa clone/'과 배우는 내용은 같지만, 출석과 퀴즈와 과제가 추가되고 제출기한이 존재합니다.
+- **javascript-meme_maker** : [JavaScript]
+    - JavaScript를 중점적으로 사용해, 그림판 앱(meme maker)을 만듭니다.
+    - canvas api
