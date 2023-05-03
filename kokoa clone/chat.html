@@ -25,7 +25,7 @@
     </div>
     <header class="alt-header chat-screen">
         <div class="alt-header__column">
-            <a href="javascript:history.back();">
+            <a href="chats.html">
                 <i class="fa-solid fa-chevron-left fa-2x"></i>
             </a>
         </div>
@@ -38,23 +38,41 @@
         </div>
     </header>
     <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            2023년 4월 27일 목요일
-        </div>
+        <div class="chat__timestamp">2023년 4월 27일 목요일</div>
         <div class="message-row">
             <img src="img/myMokoko.jpg" alt="">
             <div class="message-row__content">
-                <span class="message__author"></span>
+                <span class="message__author">Mokoko</span>
                 <div class="message__info">
-                    <span class="message__bubble">Hi !</span>
+                    <span class="message__bubble">너 왜 냉장고에 있는 내 모코코주스 마심?</span>
                     <span class="message__time">12:34</span>
                 </div>
             </div>
         </div>
-
-
-
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">먼저 마신 사람이 임자 아님?</span>
+                    <span class="message__time">12:34</span>
+                </div>
+            </div>
+        </div>
     </main>
+    <form class="reply" action="#">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="fa-regular fa-face-smile fa-2x"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>웹페이지의 가로 크기를 줄여야 화면이 보인다콩 !</span>
+    </div>
     <script src="https://kit.fontawesome.com/a3fb1d4580.js" crossorigin="anonymous"></script>
 </body>
 </html>

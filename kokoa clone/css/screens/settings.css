@@ -11,6 +11,6 @@
     font-size: 22px;
     color: var(--mokoko-icon-color);
 }
-.settings__setting-column:last-child {
+.settings__setting > .settings__setting-column:last-child {
     opacity: 0.5;
 }

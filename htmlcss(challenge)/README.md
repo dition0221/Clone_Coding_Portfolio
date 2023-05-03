@@ -24,3 +24,6 @@
 - **23-05-02** : #3.17 ~ #4.6 / Advanced CSS (+ Code Challenge)
     - state에 따른 CSS, pseudo element, 색깔을 지정하는 방법, :root
     - transition, transformation, animation, Media Query
+- **23-05-03** : #6.0 ~ #6.5 / Cloning Time(1) (+ Code Challenge)
+    - status-bar 생성
+    - index.html, BEM(Block Element Modifier), icon, font-family, CSS hack

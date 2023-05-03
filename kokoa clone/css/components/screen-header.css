@@ -27,3 +27,14 @@
     right: 18px;
     top: 63px;
 }
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header .fa-gear:hover {
+    animation: rotateGear 1s linear infinite;
+}

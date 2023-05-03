@@ -56,6 +56,68 @@
     bottom: 10px;
     font-size: 12px;
 }
+/* @keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+} */
+@keyframes heartBeat {
+    0% {
+        color: #f00;
+        transform: none;
+    }
+    8.33% {
+        color: #ff7f00;
+    }
+    16.67% {
+        color: #ff0;
+    }
+    25% {
+        color: #7fff00;
+    }
+    33.33% {
+        color: #0f0;
+    }
+    41.67% {
+        color: #00ff7f;
+    }
+    50% {
+        color: #0ff;
+        transform: scale(2);
+    }
+    58.33% {
+        color: #007fff;
+    }
+    66.67% {
+        color: #00f;
+    }
+    75% {
+        color: #7f00ff;
+    }
+    83.33% {
+        color: #f0f;
+    }
+    91.67% {
+        color: #ff007f;
+    }
+    100% {
+        color: #f00;
+        transform: none;
+    }
+}
+.open-post__photo:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
 .open-post__heart-count span {
     margin-left: 5px;
 }

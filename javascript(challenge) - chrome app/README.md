@@ -56,3 +56,6 @@
     - 사용자의 위치 정보를 가져와서 openAPI를 사용해 지역 날씨를 표현
     - navigator.geolocation.getCurrentPosition(), API, JSON, fetch()
     - [최종과제] CSS를 사용해 화면 꾸미고, github.io 사용하기
+- **23-05-02**
+    - Update
+        - to-do list의 X버튼에 커서를 올릴 시 커서 모양 변경(pointer)
