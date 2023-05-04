@@ -41,3 +41,5 @@
 	- animation, media query, transform, transition
 	- screens/ chat.css
 	- components/ no-mobile.css
+- **23-05-04**
+	- Update : login.html에 나의 github 로고 추가

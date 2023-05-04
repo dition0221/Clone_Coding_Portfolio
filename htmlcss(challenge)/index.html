@@ -26,11 +26,17 @@
         <h1 class="welcome-header__title">Welcome to KoKoaClone</h1>
         <p class="welcome-header__text">If you have a KoKoa Account, log in with your email or phone number.</p>
     </header>
-    <form action="" id="login-form">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" required>
+        <input name="password" type="password" placeholder="Password" required>
         <input type="submit" value="Log In">
-        <a href="#">Find KoKoa Account or Password</a>
+        <div class="login-form__bottom">
+            <a href="#">Find KoKoa Account or Password</a>
+            <a class="my-introduce" href="https://github.com/dition0221" target="_blank">
+                <img src="img/github_logo_black.png" alt="">
+                <span>@dition0221</span>
+            </a href="">
+        </div>
     </form>
     <script src="https://kit.fontawesome.com/a3fb1d4580.js" crossorigin="anonymous"></script>
 </body>

@@ -27,3 +27,6 @@
 - **23-05-03** : #6.0 ~ #6.5 / Cloning Time(1) (+ Code Challenge)
     - status-bar 생성
     - index.html, BEM(Block Element Modifier), icon, font-family, CSS hack
+- **23-05-04** : #6.6 ~ #6.11 / Cloning Time(2) (+ Code Challenge)
+    - navigation-bar 생성, friends.html 생성
+    - reset.css, not 예약어, form 태그의 action 속성과 method 속성 {GET, POST}, box-sizing: border-box;

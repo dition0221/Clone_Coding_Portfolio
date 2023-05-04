@@ -1,46 +1,47 @@
 .welcome-header {
-    margin: 100px 0px;
+    margin: 90px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 600;
 }
 .welcome-header__title {
     margin-bottom: 40px;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
 }
 .welcome-header__text {
     width: 60%;
     opacity: 0.7;
+    font-size: 18px;
 }
 #login-form {
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0 30px;
 }
 #login-form input {
-    padding: 15px 0px;
     border: none;
+    padding: 15px 0;
     font-size: 18px;
     margin-bottom: 25px;
 }
-#login-form input[placeholder] { /* 또는 #login-form input:not([type="submit"]) */
-    background-color: var(--mokoko-color);
-    transition: all 0.3s ease-in-out;
-    border-bottom: 2.5px solid rgba(0, 0, 0, 0.2);
+#login-form input:not([type="submit"]) {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+    background-color: whitesmoke;
 }
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.45);
+    color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-    border-color: var(--mokoko-font-color);
+    border-color: var(--yellow-color);
 }
 #login-form input[type="submit"] {
-    background-color: var(--mokoko-leaf-color);
+    background-color: var(--yellow-color);
     cursor: pointer;
+    padding: 20px 0;
     font-size: 20px;
-    padding: 20px 0px;
     border-radius: 5px;
 }
 .login-form__bottom {

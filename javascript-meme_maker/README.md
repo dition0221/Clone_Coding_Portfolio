@@ -10,5 +10,7 @@
 
 - **23-05-02** : #0.0 ~ #0.3 / Introduction
 - **23-05-03** : #1.0 ~ #1.2 / Canvas API(1)
-    - Canvas API, canvas, context, path
-    - 모양을 그리기{rect, arc 등}, 선이나 단색을 채우기{stroke, fill 등}
+    - Canvas API, canvas, context, path(.beginPath())
+    - 모양을 그리기 {.rect(), .arc() 등}
+    - 선이나 단색을 채우기 {.stroke(), .fill() 등}
+    - 색깔 지정하기 {.strokeStyle, .fillStyle 등}
