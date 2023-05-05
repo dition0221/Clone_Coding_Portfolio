@@ -15,24 +15,62 @@
 .more-suggestion__icons {
     display: flex;
     margin-bottom: 30px;
+    justify-content: space-around;
 }
 .more-suggestion__icon {
     display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+.more-suggestion__icon a {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px;
 }
 .more-suggestion__icon-image {
     width: 60px;
     height: 60px;
-    background-color: var(--yellow-color);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
-.more-suggestion__icon-image i {
+.more-suggestion__icon:first-child > .more-suggestion__icon-image {
+    background-color: var(--mokoko-leaf-color);
+}
+.more-suggestion__icon:nth-child(2) .more-suggestion__icon-image {
+    background-color: #232323;
+}
+.more-suggestion__icon:nth-child(2) img {
+    width: 45px;
+    height: 45px;
+}
+.more-suggestion__icon-image img {
+    width: 60px;
+    height: 60px;
+}
+.more-suggestion__icon:first-child .more-suggestion__icon-image i {
     font-size: 40px;
     color: white;
+}
+.more-suggestion__icon:nth-child(3) .more-suggestion__icon-image i {
+    font-size: 60px;
+    color: red;
+}
+@keyframes flipYoutube {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+.more-suggestion__icon:nth-child(3):hover .more-suggestion__icon-image i {
+    animation: flipYoutube 1s ease-in-out infinite;
+}
+@keyframes rotateMapleStory {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.more-suggestion__icon:last-child:hover .more-suggestion__icon-image img {
+    animation: rotateMapleStory 1s ease-in-out infinite;
 }

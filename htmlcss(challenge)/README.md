@@ -25,8 +25,14 @@
     - state에 따른 CSS, pseudo element, 색깔을 지정하는 방법, :root
     - transition, transformation, animation, Media Query
 - **23-05-03** : #6.0 ~ #6.5 / Cloning Time(1) (+ Code Challenge)
+    - <a href="https://replit.com/@dition0221/kokoa-challenge-10days" target="_blank">[과제] 완성본 이미지를 보고 해당 화면을 만들기(1)</a>
     - status-bar 생성
     - index.html, BEM(Block Element Modifier), icon, font-family, CSS hack
 - **23-05-04** : #6.6 ~ #6.11 / Cloning Time(2) (+ Code Challenge)
+    - <a href="https://replit.com/@dition0221/kokoa-challenge-11days" target="_blank">[과제] 완성본 이미지를 보고 해당 화면을 만들기(2)</a>
     - navigation-bar 생성, friends.html 생성
     - reset.css, not 예약어, form 태그의 action 속성과 method 속성 {GET, POST}, box-sizing: border-box;
+- **23-05-05** : #6.12 ~ #6.17 / Cloning Time(3) (+ Code Challenge(2 days)[1st day])
+    - <a href="https://replit.com/@dition0221/kokoa-challenge-12days" target="_blank">[과제] 완성본 이미지를 보고 해당 화면을 만들기(3)</a>
+    - screen-header 생성, user-component 생성
+    - border-box

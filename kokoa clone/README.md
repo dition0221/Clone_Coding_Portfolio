@@ -25,7 +25,7 @@
 	- 4번째 html 파일('Find' 화면) 생성(find.html)
 	- screens/find.css
 	- components/open-post.css
-	- Fix : 본문과 하단 nav가 겹치는 문제 해결(본문<main>에서 nav의 height만큼 padding-bottom 추가)
+	- Fix : 본문과 하단 nav가 겹치는 문제 해결(본문 main에서 nav의 height만큼 padding-bottom 추가)
 - **23-04-25** : #6.25 ~ #6.26 / Cloning time(5)
 	- 5번째 html 파일('More' 화면) 생성(more.html)
 	- screens/more.css
@@ -43,3 +43,14 @@
 	- components/ no-mobile.css
 - **23-05-04**
 	- Update : login.html에 나의 github 로고 추가
+- **23-05-05** : #7.0 ~ #7.3 / Publishing our website
+	- Update
+		- screen-header icon에 cursor: pointer; 추가
+		- friends.html, chats.html에 인물 추가
+			- chats.html에서 이동하는 html파일 2개 추가 (+이스터에그)
+		- find.html에서 인물 및 이스터에그 추가
+		- more.html에서 suggestion부분 업데이트
+		- settings.html에서 목록 추가 업데이트
+	- Fix
+		- settings.html에서 github링크 수정
+		- chat.html의 input:focus의 width 길이 조절

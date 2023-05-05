@@ -11,6 +11,7 @@
 }
 .screen-header__icons span {
     margin-left: 30px;
+    cursor: pointer;
 }
 .screen-header__point {
     /* 모양 설정 */
