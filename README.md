@@ -7,7 +7,7 @@
 
 ### 시간순으로 정렬.  
 - **kokoa clone** : [HTML5, CSS3]
-    - HTML과 CSS를 중점적으로 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
+    - HTML과 CSS를 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
 - **python(challenge)** : [Python]
     - [23-04-10 ~ 23-04-24(2주)] python으로 웹 스크래퍼를 만듭니다.
     - **https://pythonlastjobscrapper.dition0221.repl.co/** : 최종 결과물
@@ -25,8 +25,11 @@
         - to-do List에 할 일을 생성 및 삭제합니다.  
         - 웹 사이트가 이름과 to-do List를 기억합니다.
 - **htmlcss(challenge)** : [HTML5, CSS3]
-    - [23-04-24 ~ 23-05-08(2주)] HTML과 CSS를 중점적으로 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
+    - [23-04-24 ~ 23-05-08(2주)] HTML과 CSS를 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
     - 'kokoa clone/'과 배우는 내용은 같지만, 출석과 퀴즈와 과제가 추가되고 제출기한이 존재합니다.
 - **javascript-meme_maker** : [JavaScript]
-    - JavaScript를 중점적으로 사용해, 그림판 앱(meme maker)을 만듭니다.
-    - canvas api
+    - JavaScript를 중점적으로 사용해, 그림판 앱(meme_maker)을 만듭니다.
+    - canvas API
+- **react-movie_web_service** : [React]
+    - React를 중점적으로 사용해, 영화 웹 서비스를 만듭니다.
+    - React JS, ReactDOM

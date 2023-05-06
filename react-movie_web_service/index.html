@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<!-- 17.0.2 -->
+<script>
+    const root = document.querySelector("#root");
+    const h3 = React.createElement("h3", {
+        id: "title",
+        onMouseEnter: () => {
+            console.log("mouse enter");
+        }
+    }, "Hello I'm a h3");
+    const btn = React.createElement("button", {
+        onClick: () => {
+            console.log("I'm clicked");
+        }
+    }, "Click me");
+    const container = React.createElement("div", null, [h3, btn]);
+    // ReactDOM.render(span, root);
+    ReactDOM.createRoot(root).render(container);
+</script>
+</html>

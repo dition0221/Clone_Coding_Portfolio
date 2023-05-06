@@ -2,7 +2,7 @@
     background-color: #8bd0ed;
 }
 #chat-screen {
-    height: 500vh;
+    height: 200vh;
 }
 @keyframes fadeIn {
     0% {
