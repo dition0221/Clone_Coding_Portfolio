@@ -28,3 +28,15 @@
     - 캔버스 지우개 기능 추가
         - Issue : 현재 지우기모드인지 아닌지 구분이 힘듦
         - To-do : 토글키로 바꿀 것
+- **23-05-07** : #3.0 ~ #3.3 / Meme Maker
+    - 캔버스에 이미지파일 업로드하기
+        - input type="file" and 'accept' attribute
+        - URL.createObjectURL(), context.drawImage()
+    - 캔버스에 텍스트를 입력하는 기능
+        - event.offsetX와 event.offsetY를 사용
+        - context.strokeText(), context.fillText()
+        - Issue : 텍스트가 context.lineWidth의 영향을 받음
+        - Fix : context.save(), context.restore() 사용
+    - 캔버스 선의 모양 바꾸기 : context.lineCap = {butt, round, square}
+    - 캔버스 이미지를 저장하는 기능
+        - canvas.toDataURL(), a.href, a.download, a.click()
