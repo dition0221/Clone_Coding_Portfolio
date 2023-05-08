@@ -14,21 +14,21 @@
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <!-- 17.0.2 -->
-<script>
-    const root = document.querySelector("#root");
-    const h3 = React.createElement("h3", {
-        id: "title",
-        onMouseEnter: () => {
-            console.log("mouse enter");
-        }
-    }, "Hello I'm a h3");
-    const btn = React.createElement("button", {
-        onClick: () => {
-            console.log("I'm clicked");
-        }
-    }, "Click me");
-    const container = React.createElement("div", null, [h3, btn]);
-    // ReactDOM.render(span, root);
-    ReactDOM.createRoot(root).render(container);
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel">
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+
+    const App = () => {
+        const [counter, setCounter] = React.useState(0);
+        return (
+            <div>
+                <h3>Total clicks: {counter}</h3>
+                <button onClick={() => setCounter(counter + 1)}>Click me !</button>
+            </div>
+        );
+    };
+    ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+    // root.render(<App/>);
 </script>
 </html>

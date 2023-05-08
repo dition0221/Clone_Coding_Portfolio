@@ -40,3 +40,15 @@
     - 캔버스 선의 모양 바꾸기 : context.lineCap = {butt, round, square}
     - 캔버스 이미지를 저장하는 기능
         - canvas.toDataURL(), a.href, a.download, a.click()
+- **23-05-08** : #3.4 ~ #3.5 / CSS + Code Challenge
+    - CSS로 스타일링
+    - Update
+        - 삭제(destroy), 저장(save) 시 확인하는 confirm창 추가
+        - 텍스트 기능 추가 (size 설정, font설정, {fill, stroke}의 타입 설정)
+        - 'Fill' & 'Draw' 버튼 이분할
+        - 'draw' 기능 추가 {stroke, fill}
+        - 'Fill' 버튼 클릭 시 Draw 스타일 버튼 표시 비활성화
+            - 'Draw' 버튼 클릭 시 이전 Draw 스타일 버튼 표시 활성화
+            - 'Fill' 버튼 활성화 시 Draw 스타일 버튼 변경 비활성화
+    - Fix
+        - 'eraser' 클릭 시 선택한 색상을 흰색으로 표시 + 'draw' 모드로 변경
