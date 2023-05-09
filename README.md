@@ -36,11 +36,11 @@
     - canvas API
     - 최종 결과물 : **https://dition0221.github.io/Clone_Coding_Portfolio/javascript-meme_maker/**
     > [그림판 앱]
-        - 원하는 색으로 선 그리기 및 색 채우기
-        - 지우개 및 전부 지우기
-        - 이미지 불러오기
-        - 텍스트 넣기 (폰트, 스타일, 크기 설정 가능)
-        - 이미지 저장하기
+        - 원하는 색으로 선 그리기 및 색 채우기  
+        - 지우개 및 전부 지우기  
+        - 이미지 불러오기  
+        - 텍스트 넣기 (폰트, 스타일, 크기 설정 가능)  
+        - 이미지 저장하기  
 
 - **react-movie_web_service** : <img src="https://img.shields.io/badge/React JS-61DAFB?style=flat-square&logo=react&logoColor=white"/>
     - React를 중점적으로 사용해, 영화 웹 서비스를 만듭니다.
