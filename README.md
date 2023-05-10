@@ -44,4 +44,7 @@
 
 - **react-movie_web_service** : <img src="https://img.shields.io/badge/React JS-61DAFB?style=flat-square&logo=react&logoColor=white"/>
     - React를 중점적으로 사용해, 영화 웹 서비스를 만듭니다.
-    - React JS, ReactDOM
+    - React JS, ReactDOM  
+
+- **dart** : <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
+    - Flutter 앱 개발을 위한 Dart 배우기 - Dart의 기능, 규칙, 구문에 대해 배우기
