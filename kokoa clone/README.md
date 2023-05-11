@@ -54,3 +54,7 @@
 	- Fix
 		- settings.html에서 github링크 수정
 		- chat.html의 input:focus의 width 길이 조절
+- **23-05-11**
+	- Fix
+		- 구글이 사이트를 차단하는 문제 해결
+		- 이미지가 엑박이 뜨는 문제 해결
