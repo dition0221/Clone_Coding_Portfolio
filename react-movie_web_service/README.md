@@ -34,3 +34,7 @@
         - 오직 성능 최적화를 위함
     - PropTypes
         - 어떤 데이터타입의 prop을 받고 있는지를 체크해주는 패키지
+- **23-05-10** : #5.0 ~ #6.4 / Create-react-app, Effect
+    - Create-react-app
+    - .module.css : 컴포넌트마다 설정할 수 있는 CSS파일
+    - useEffect() : 리렌더링 시 특정 코드를 실행할지 말지 설정할 수 있는 함수
