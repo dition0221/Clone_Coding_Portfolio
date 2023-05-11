@@ -8,6 +8,7 @@
 ### 시간순으로 정렬.  
 - **kokoa clone** : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
     - HTML과 CSS를 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
+    - 최종 결과물 : **https://dition0221.github.io/Clone_Coding_Portfolio/kokoa%20clone/**
 
 - **python(challenge)** : <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
     - [23-04-10 ~ 23-04-24(2주)] python으로 웹 스크래퍼를 만듭니다.
@@ -30,6 +31,7 @@
 - **htmlcss(challenge)** : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
     - [23-04-24 ~ 23-05-08(2주)] HTML과 CSS를 사용해, 카카오톡과 비슷한 웹 사이트를 구성합니다.
     - 'kokoa clone/'과 배우는 내용은 같지만, 출석과 퀴즈와 과제가 추가되고 제출기한이 존재합니다.
+    - 'kokoa clone/'에서 완성한 작품을 <a href="https://dition0221.github.io/Clone_Coding_Portfolio/kokoa%20clone/" target="_blank">졸업작품</a>으로 제출했습니다.
 
 - **javascript-meme_maker** : <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
     - JavaScript를 중점적으로 사용해, 그림판 앱(meme_maker)을 만듭니다.
