@@ -35,13 +35,15 @@
     - 오직 성능 최적화를 위함
   - PropTypes
     - 어떤 데이터타입의 prop을 받고 있는지를 체크해주는 패키지
-- **23-05-10** : #5.0 ~ #6.4 / Create-react-app, Effect
+- **23-05-11** : #5.0 ~ #6.4 / Create-react-app, Effect
   - Create-react-app
   - .module.css : 컴포넌트마다 설정할 수 있는 CSS파일
   - useEffect() : 리렌더링 시 특정 코드를 실행할지 말지 설정할 수 있는 함수
-- **23-05-11** : #7.0 ~ #7.6 / React-router-dom
+- **23-05-12** : #7.0 ~ #7.6 / React-router-dom
   - 나머지연산자(...)를 사용해 배열인 state를 수정하기
   - .map() : 배열의 각 item마다 특정 함수를 실행하고, 그 함수로부터 return한 값들로 새로운 배열을 만듦
   - React 'unique key' Error : 같은 컴포넌트의 list를 렌더링할 때, 'key'라는 prop을 넣어줘야 함
   - fetch().then(), async, await
   - React-router-dom, Link to 컴포넌트, 동적 URL
+- **23-05-15** : #7.7 ~ #7.10 / Publish React Web
+  - Git과 gh-pages를 이용해 배포하기(https://dition0221.github.io/react-movie_web_service/)
