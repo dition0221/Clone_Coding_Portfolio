@@ -15,3 +15,9 @@
   - NodeJS 설치 및 package.json 사용
   - Express 패키지 설치
   - babel 설치 및 세팅
+- **23-05-17** : #3.0 ~ #3.11 / Server, Request, Response, Middleware
+  - Express 패키지를 사용해 server 생성
+  - .get() : request를 받아서 response를 하는 방법
+  - next() : request와 response 사이에서 작동하는 middleware
+  - .use() : 전역 middleware 설정
+  - Morgan 패키지 : Node.js에서 사용할 수 있는 정교한 log를 보여주는 외부 middleware 패키지
