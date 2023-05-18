@@ -2,7 +2,7 @@
 
 ### 프론트+백+배포를 포함한 전체 싸이클을 돌리는 풀스택으로 Youtube와 비슷한 웹 사이트를 구성합니다.
 
-**Github : https://github.com/dition0221/youtube_clone** 에서 파일을 확인할 수 있습니다.
+**<a href="https://github.com/dition0221/youtube_clone" target="_blank">Github : https://github.com/dition0221/youtube_clone</a>** 에서 파일을 확인할 수 있습니다.
 
 ---
 
@@ -21,3 +21,9 @@
   - next() : request와 response 사이에서 작동하는 middleware
   - .use() : 전역 middleware 설정
   - Morgan 패키지 : Node.js에서 사용할 수 있는 정교한 log를 보여주는 외부 middleware 패키지
+- **23-05-18** : #4.0 ~ #4.8 / Router
+  - Express 패키지를 사용해 Router 생성
+  - Router와 Controller를 분할 정복으로 정리
+  - import와 export {export, export default}
+  - ':변수명' 파라미터
+  - 정규식
