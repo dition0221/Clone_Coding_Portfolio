@@ -42,3 +42,10 @@
   - express.urlencoded() : POST 방식으로 보낸 데이터를 Back-End에서 받는 방법
     - req.body
   - res.redirect() : 브라우저가 자동으로 (다른 URL 주소로) 화면 이동을 하는 것
+- **23-05-22** : #6.7 ~ #6.13 / mongoDB, mongoose
+  - mongoDB와 mongoose 설치
+  - 서버에 DB 연결하기
+  - DB Model 생성하기 (Schema 설정하기)
+  - 서버파일(server.js)과 프로젝트 실행파일(init.js)을 분리
+  - DB Query (Model.find())
+    - promise, async, await, try-catch문
