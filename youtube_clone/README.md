@@ -49,3 +49,20 @@
   - 서버파일(server.js)과 프로젝트 실행파일(init.js)을 분리
   - DB Query (Model.find())
     - promise, async, await, try-catch문
+- **23-05-23** : #6.14 ~ #6.22 / Save & Find & Update to DB
+  - DB에 데이터를 저장하는 방법
+    - await 모델명.create({ ... });
+  - DB 모델의 Schema에서 사용할 수 있는 옵션들
+    - { type, default, required, trim, minLength, maxLength, ... }
+  - Mongoose로부터 무작위성 id
+    - 무작위 16진수로 만들어진 24자리의 String
+    - 정규식을 조건으로 사용 : [0-9a-f]{24}
+  - DB로부터 원하는 데이터 찾기
+    - await 모델명.findById(id)
+    - .findOne() : 조건을 걸어 원하는 데이터 찾기
+    - 데이터가 없다면 404페이지가 렌더링 되도록하기
+  - DB에 데이터 업데이트(수정)하기
+    - await 모델명.findByIdAndUpdate(id, {업데이트 내용});
+  - DB에 해당 데이터의 유무 확인하기
+    - await 모델명.exists({조건});
+    - Boolean 값을 반환
