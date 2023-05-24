@@ -66,3 +66,13 @@
   - DB에 해당 데이터의 유무 확인하기
     - await 모델명.exists({조건});
     - Boolean 값을 반환
+- **23-05-24** : #6.23 ~ #6.28 / Middleware in mongoose, Delete & Search in DB
+  - Middleware in mongoose
+    - document에 무슨 일이 생기기 전이나 후에 middleware 적용이 가능
+    - static function middleware : 직접 model의 middleware를 생성할 수 있음
+  - Delete in DB
+    - Model.findByIdAndDelete(id)
+  - Search in DB
+    - req.query
+    - Model.find()
+    - 정규식(regular expression) : $regex
