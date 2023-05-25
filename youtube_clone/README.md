@@ -76,3 +76,23 @@
     - req.query
     - Model.find()
     - 정규식(regular expression) : $regex
+- **23-05-25** : #7.0 ~ #7.11 / User Authentication
+  - 새로운 page 생성 : Create Account, LogIn
+  - PW 보안처리
+    - 'bcrypt'패키지의 해시함수(bcrypt.hash())를 이용해 PW를 암호화한 후 DB에 저장
+    - 'bcrypt.compare()' : 입력한 PW의 해시값과 DB에 저장된 PW의 해시값을 비교해 로그인
+  - 상태코드(Status Code) : res.render() 사이에 '.status()' 메서드를 사용
+  - DB의 unique값 중복체크하기
+    - 'MODEL.exists()' 등을 사용해 중복체크
+    - MongoDB에서 제공하는 '$or' 키워드를 사용해 조건들을 간단하게 사용 가능
+  - 세션(Session) & 쿠키(Cookie)
+    - 백엔드와 브라우저 간에 어떤 활동을 했는지 기억하는 것
+    - 쿠키의 세션ID를 통해 서버는 어떤 브라우저인지 구분할 수 있음
+    - 쿠키 : 단지 정보를 주고받는 방법
+    - 세션ID : 쿠키에 저장됨
+    - 'express-session'패키지를 Express서버의 middleware로 적용 시 자동으로 세션 발급
+  - locals
+    - Pug와 Express는 서로 전역변수 'locals 객체'를 공유할 수 있도록 자동으로 설정되어있음
+    - Express의 Controller에서 'res.locals'로 참조가능
+    - Pug에서는 자동으로 import되어있기에 파라미터명으로 간단하게 바로 사용 가능
+    - 단, Express의 Router를 거치기 전인 Express Middleware에서 locals를 선언해야 함
