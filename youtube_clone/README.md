@@ -96,3 +96,24 @@
     - Express의 Controller에서 'res.locals'로 참조가능
     - Pug에서는 자동으로 import되어있기에 파라미터명으로 간단하게 바로 사용 가능
     - 단, Express의 Router를 거치기 전인 Express Middleware에서 locals를 선언해야 함
+- **23-05-29** : #7.12 ~ #7.13 / Session Store(1)
+  - Session Store : 세션을 DB에 저장해야 함
+    - 세션 데이터는 서버에 저장되는데, 이는 휘발성 저장소이므로 서버가 꺼지면 데이터는 날라갈 것
+    - DB에 저장하면 서버를 재시작해도 세션 데이터를 기억할 것
+  - 'connect-mongo' 패키지 : 해당 패키지를 사용해 세션을 MongoDB에 저장
+    1. import MongoStore from "connect-mongo";
+    2. MongoStore 생성하기
+    - MongoDB의 URL을 가지고있는 configuration 객체를 만들어야 함
+    - 서버.js에서 'express-session' 미들웨어 코드에 'store' 옵션을 추가
+    - ex. store: MongoStore.create({ mongoUrl: "DB의URL주소" })
+  - 쿠키 및 세션 설정
+    - 로그인한 사용자의 세션만 저장하는 것이 좋음 : 리소스 문제
+    - 'saveUninitialized: false'
+      - request에서 새로 생성된 세션에 아무 작업이 이뤄지지 않은 상태도 저장할지 여부
+      - false 시 세션을 수정할 때만 세션을 DB에 저장하고 쿠키를 넘겨주는 설정
+    - 'resave: false'
+      - 세션을 항상 저장할지(변경사항이 없어도) 여부를 정하는 값
+      - 익명이나 봇에게 세션을 주게되면, DB가 효율적이지 않기에 false값을 권장
+      - 각각 다른 변경사항을 요구하는 두 가지 request를 동시에 처리할 때 세션을 저장하는 과정에서 충돌이 발생할 수 있는데, 이를 방지하기위해 사용
+    - 웹사이트를 서버에 배포할 시 세션 미들웨어 설정 중에서 'secret' 속성값과 DB의 URL 코드가 보이면 안 됨
+      - DB에는 사용자의 ID와 PW가 있기때문 (보안)
